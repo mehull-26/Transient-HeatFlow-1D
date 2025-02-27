@@ -13,13 +13,13 @@ The simulation models the heat distribution over time in a **1D rod** given init
 ## **Mathematical Formulation**  
 The heat equation is given by:  
 
-\[
+$$
 \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
-\]
+$$
 
 where:  
-- \( T(x,t) \) = Temperature at position \( x \) and time \( t \)  
-- \( \alpha \) = Thermal diffusivity  
+- $T(x,t)$ = Temperature at position \( x \) and time \( t \)  
+- $\alpha$ = Thermal diffusivity  
 
 ### **Numerical Methods Used**  
 #### 1️⃣ Crank-Nicholson Method  
